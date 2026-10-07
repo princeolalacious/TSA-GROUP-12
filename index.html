@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="TSA GROUP 12">
+    <meta name="description" content="This is a simple Planetary Webpage.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetary Facts</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+    <header>
+        <!-------- HEADER -------->
+        <nav class="header">
+            <div>
+                <img src="./images/logo_black.png" class="logo" alt="planet">
+                <span>Dark</span>
+                <button aria-label="toggle theme" id="btn">
+                    <i class="fa-solid fa-moon"></i> 
+                </button>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!------ SEARCH SECTION ------->
+        <section class="search-section">
+            <form action="#" class="search-form">
+                <div class="search-input-wrapper">
+                    <span class="search-icon">
+                        <i class="fa-solid fa-search"></i>
+                    </span>
+
+                    <input type="text" placeholder="Search planet name" aria-label="Search Planet">
+                
+                </div>
+
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+
+        <!------ EARTH SECTION ------->
+        <section class="earth-card">
+            
+            <div class="earth-card-top">
+
+                <div class="earth-image">
+                    <img src="./images/Profile Picture.png" alt="Earth">
+                </div>
+
+                <div class="earth-info">
+                    <h2>Earth</h2>
+                    <h3>Terrestrial</h3>
+
+                    <p>
+                        The only known planet to support life, with liquid water on its surface.
+                    </p>
+
+                    
+                    <!------ STATS INFO ------->
+                    <div class="earth-stats">
+
+                        <div class="stat-box">
+                            <span>Gravity</span>
+                            <strong>9.8</strong>
+                        </div>
+
+                        
+                        <div class="stat-box">
+                            <span>Mass</span>
+                            <strong>0.00315</strong>
+                        </div>
+
+                        
+                        <div class="stat-box">
+                            <span>Period</span>
+                            <strong>365</strong>
+                        </div>
+
+                    </div>
+
+
+                    <!------ EXTRA DETAILS ------->
+                    <div class="earth-details">
+
+                        <div class="details">
+                            <span class="icon">
+                                <i class="fa-solid fa-thermometer-half">&deg</i>
+                            </span>
+                            <span>288</span>
+                        </div>
+
+                        <div class="details">
+                            <span class="icon">
+                                <i class="fa-solid fa-moon"></i>
+                            </span>
+                            <span>1</span>
+                        </div>
+
+                        <div class="details">
+                            <span class="icon">
+                                <i class="fa-solid fa-circle"></i>
+                            </span>
+                            <span>12756</span>
+                        </div>
+
+                        <div class="details">
+                            <span class="icon">
+                                <i class="fa-solid fa-sun"></i>
+                            </span>
+                            <span>149.6</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!------ FACTS SECTION ------->
+        <section class="planet-facts">
+
+            <h1>Planetary Facts at a Glance</h1>
+            
+            <p>
+                Below is a comparative table of major planets in our solar system. The data highlights key
+                physical properties used by astronomers and researchers worldwide.
+            </p>
+
+            <h3>
+                Data about the planets of our solar system
+                (Planetary Facts taken from NASA)
+            </h3>
+
+            <!------- TABLE ------->
+            <div class="table-wrapper">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th colspan="2"></th>
+                            <th>Name</th>
+                            <th>Mass (10 24kg)</th>
+                            <th>Diameter (km)</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <!------- TERRESTRIAL ------->
+                        <tr>
+                            <td colspan="2" rowspan="4">Terrestrial Planets</td>
+                            <td>Mercury</td>
+                            <td>0.330</td>
+                            <td>4,878</td>
+                        </tr>
+
+                        <tr>
+                            <td>Venus</td>
+                            <td>0.330</td>
+                            <td>4,878</td>
+                        </tr>
+
+                        <tr>
+                            <td>Earth</td>
+                            <td>0.330</td>
+                            <td>4,878</td>
+                        </tr>
+
+                        <tr>
+                            <td>Mars</td>
+                            <td>0.330</td>
+                            <td>4,878</td>
+                        </tr>
+
+                        <!------- JOVIAN ------->
+                        <tr>
+                            <td rowspan="4">Jovian Planets</td>
+                            <td rowspan="2">Gas Giants</td>
+                            <td>Jupiter</td>
+                            <td>0.330</td>
+                            <td>4,878</td>
+                        </tr>
+
+                        <tr>
+                            <td>Saturn</td>
+                            <td>0.330</td>
+                            <td>4,878</td>
+                        </tr>
+
+                        <tr>
+                            <td rowspan="2">Ice Giants</td>
+                            <td>Uranus</td>
+                            <td>0.330</td>
+                            <td>4,878</td>
+                        </tr>
+
+                        <tr>
+                            <td>Neptune</td>
+                            <td>0.330</td>
+                            <td>4,878</td>
+                        </tr>
+
+                        <!------- DWARF ------->
+                        <tr>
+                            <td colspan="2">Dwarf Planets</td>
+                            <td>Pluto</td>
+                            <td>0.330</td>
+                            <td>4,878</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!------- FOOTER ------->
+    <footer class="footer">
+
+        <div class="footer-about">
+            <h4>About</h4>
+            <p>Prince, Precious, Gbolahan, Isaiah, Olawale, Zephaniah, Unique, Ademiposi, Ganiyat, and Abdulmu'izz.</p>
+        </div>
+
+        <div class="footer-credit">
+            <p>
+                ©2026 Design by <a href="https://amakandukwu.com">Amaka N</a>
+            </p>
+
+            <p>
+                Built by <a href="https://github.com/princeolalacious/TSA-GROUP-12">TSA GROUP 12</a>. All rights reserved.
+            </p>
+
+            <p>
+                <a href="https://tsacademyonline.com">TsAcademy</a>
+            </p>
+        </div>
+
+    </footer>        
+
+</body>
+</html>
