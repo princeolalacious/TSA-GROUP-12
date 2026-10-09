@@ -1,0 +1,479 @@
+
+
+/* =========================================================
+   TABLET RESPONSIVENESS
+   768px - 1024px
+========================================================= */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+ 
+
+    .header {
+        width: 90%;
+        height: 75px;
+    }
+
+    .header > div {
+        width: auto;
+    }
+
+    .header .logo {
+        width: 70px;
+    }
+
+    .header .logo img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .theme-toggle {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+    }
+
+
+  
+
+    main {
+        width: 90%;
+        max-width: 730px;
+    }
+
+
+ 
+
+    .search-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .search-form {
+        width: 100%;
+    }
+
+    .search-form input {
+        height: 38px;
+        font-size: 13px;
+    }
+
+    .search-form button {
+        width: 75px;
+        height: 38px;
+        font-size: 12px;
+    }
+
+
+
+    .earth-card {
+        width: 100%;
+        padding: 22px;
+    }
+
+    .earth-card-top {
+        gap: 22px;
+    }
+
+    .earth-image img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .earth-info h2 {
+        font-size: 27px;
+    }
+
+    .earth-info h3 {
+        font-size: 15px;
+    }
+
+    .earth-info p {
+        max-width: 100%;
+        font-size: 11px;
+    }
+
+
+ 
+
+    .earth-stats {
+        width: 100%;
+        height: 80px;
+        padding: 14px 20px;
+    }
+
+    .stat-box span {
+        font-size: 10px;
+    }
+
+    .stat-box strong {
+        font-size: 20px;
+    }
+
+
+
+    .earth-details {
+        width: 100%;
+        height: auto;
+    }
+
+    .details {
+        font-size: 12px;
+    }
+
+
+
+    .planet-facts {
+        width: 100%;
+    }
+
+    .planet-facts h1 {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .planet-facts > p {
+        width: 100%;
+        max-width: 100%;
+        font-size: 11px;
+    }
+
+    .planet-facts h3 {
+        width: 100%;
+        font-size: 11px;
+    }
+
+
+
+    .table-wrapper {
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .planet-facts table {
+        width: 100%;
+        min-width: 650px;
+    }
+
+    .planet-facts th,
+    .planet-facts td {
+        font-size: 10px;
+        padding: 7px;
+    }
+
+
+
+
+    .footer {
+        width: 90%;
+        height: auto;
+        margin: 30px auto 0;
+        padding-bottom: 30px;
+        gap: 40px;
+    }
+
+    .footer h4 {
+        font-size: 18px;
+    }
+
+    .footer p {
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+/* =========================================================
+   MOBILE RESPONSIVENESS
+   320px - 767px
+========================================================= */
+
+@media screen and (max-width: 767px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+        font-size: 14px;
+    }
+
+
+
+    .header {
+        height: 285px;
+        max-width: 100%;
+        height: 65px;
+        padding: 0 12px;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .header > div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .header .logo {
+        width: 65px;
+        flex: 0 0 65px;
+    
+    }
+
+    .header .logo img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .header >.theme-toggle {
+        margin-left: auto;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 5px;
+        flex: 0 0 auto;
+    }
+
+
+    main {
+        width: 285px;
+        padding: 0 auto;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+
+    .search-section {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .search-form {
+        width: 100%;
+        gap: 6px;
+    }
+
+    .search-input-wrapper {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .search-form input {
+        width: 100%;
+        height: 38px;
+        padding-left: 27px;
+        font-size:8px;
+    }
+
+    .search-icon {
+        left: 9px;
+        font-size: 8px;
+    }
+
+    .search-form button {
+        width: 62px;
+        height: 34px;
+        flex-shrink: 0;
+        font-size: 9px;
+    }
+
+
+    .earth-card {
+        width: 100%;
+        padding: 14px;
+        margin-bottom: 18px;
+    }
+
+    .earth-card-top {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+
+    .earth-image {
+        flex-shrink: 0;
+    }
+
+    .earth-image img {
+        width: 58px;
+        height: 58px;
+    }
+
+
+
+    .earth-info {
+        min-width: 0;
+        flex: 1;
+    }
+
+    .earth-info h2 {
+        font-size: 19px;
+    }
+
+    .earth-info h3 {
+        margin-bottom: 25px;
+        font-size: 10px;
+    }
+
+    .earth-info p {
+        width: 100%;
+        max-width: none;
+        margin-bottom: 14px;
+        font-size: 8px;
+        line-height: 1.5;
+        margin-left: -70px;
+        width: calc(100% + 70px);
+    }
+
+
+    .earth-stats {
+        width:calc(100% + 70px) ;
+        height: auto;
+        padding: 12px 15px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+        margin-bottom: 12px;
+        margin-left: -70px;
+    }
+
+
+    .stat-box span {
+        margin-bottom: 8px;
+        font-size: 8px;
+    }
+
+    .stat-box strong {
+        font-size: 16px;
+    }
+
+
+    .earth-details {
+        width:calc(100% + 70px);
+        height: auto;
+        display: grid;
+        margin-left: -65px;
+
+        grid-template-columns: 1fr;
+        row-gap: 9px;
+    }
+
+    .details {
+        display: flex;
+        gap: 9px;
+        align-items: center;
+        font-size: 9px;
+    }
+
+    .details .icon {
+        width: 12px;
+    }
+
+    .details .icon i {
+        font-size: 17px;
+    }
+
+
+    .planet-facts {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .planet-facts h1 {
+        width: 100%;
+        margin-bottom: 8px;
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    .planet-facts > p {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 12px;
+        font-size: 9px;
+        line-height: 1.55;
+    }
+
+    .planet-facts h3 {
+        width: 100%;
+        margin-bottom: 7px;
+        font-size: 9px;
+        line-height: 1.5;
+    }
+
+
+
+    .table-wrapper {
+        width: 100%;
+        overflow-x: hidden;
+
+    }
+
+    .planet-facts table {
+        width: 100%;
+        min-width:0;
+    
+        table-layout: fixed;
+    }
+
+    .planet-facts th {
+        height: 28px;
+        padding: 3px;
+        font-size: 6px;
+    }
+
+    .planet-facts td {
+        height: 28px;
+        padding: 3px;
+        font-size: 6px;
+    }
+
+    .planet-facts tbody td[rowspan],
+    .planet-facts tbody td[colspan]
+    {
+    font-size: 6px;
+    }
+
+
+
+    .footer {
+        height: auto;
+        padding: 0 12px 20px;
+        display: block;
+
+    }
+
+    .footer-about{
+        margin-bottom: 18px;
+    }
+
+    .footer h4 {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .footer p {
+        font-size: 8px;
+        line-height: 1.6;
+    }
+
+
+}
