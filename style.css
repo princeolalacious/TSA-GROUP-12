@@ -3,372 +3,360 @@
 ========================= */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-*
-body {
-    font-family: 'Inter', Arial, sans-serif;
-    background: #f5f7ff;
-    color: #111827;
-    font-size: 16px;
+* body {
+  font-family: "Inter", Arial, sans-serif;
+  background: #f5f7ff;
+  color: #111827;
+  font-size: 16px;
 }
 
 main {
-    width: 730px;
-    margin: 0 auto;
+  width: 730px;
+  margin: 0 auto;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 
 /* =========================
    HEADER
 ========================= */
 
 .header {
-    width: 730px;
-    height: 70px;
-    margin: 0 auto;
+  width: 730px;
+  height: 70px;
+  margin: 0 auto;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header > div {
-    width: 100%;
+  width: 100%;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
-    width: 70px;
-    height: auto;
+  width: 70px;
+  height: auto;
 }
 
 .header span {
-    margin-left: auto;
+  margin-left: auto;
 
-    font-size: 7px;
-    font-weight: 700;
-    letter-spacing: 2px;
+  font-size: 7px;
+  font-weight: 700;
+  letter-spacing: 2px;
 
-    color: #214b9b;
+  color: #214b9b;
 }
 
 #btn {
-    margin-left: 6px;
+  margin-left: 6px;
 
-    border: none;
-    background: transparent;
+  border: none;
+  background: transparent;
 
-    color: #214b9b;
-    font-size: 10px;
+  color: #214b9b;
+  font-size: 10px;
 
-    cursor: pointer;
+  cursor: pointer;
 }
-
 
 /* =========================
    SEARCH SECTION
 ========================= */
 
 .search-section {
-    width: 730px;
-    margin-bottom: 18px;
+  width: 730px;
+  margin-bottom: 18px;
 }
 
 .search-form {
-    width: 100%;
+  width: 100%;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    gap: 8px;
+  gap: 8px;
 }
 
 .search-input-wrapper {
-    position: relative;
-    flex: 1;
+  position: relative;
+  flex: 1;
 }
 
 .search-icon {
-    position: absolute;
+  position: absolute;
 
-    left: 11px;
-    top: 50%;
+  left: 11px;
+  top: 50%;
 
-    transform: translateY(-50%);
+  transform: translateY(-50%);
 
-    color: #1684ed;
-    font-size: 9px;
+  color: #1684ed;
+  font-size: 9px;
 }
 
 .search-form input {
-    width: 100%;
-    height: 32px;
+  width: 100%;
+  height: 32px;
 
-    padding: 0 10px 0 30px;
+  padding: 0 10px 0 30px;
 
-    border: 1px solid #e1e7f2;
-    border-radius: 6px;
+  border: 1px solid #e1e7f2;
+  border-radius: 6px;
 
-    background: #ffffff;
+  background: #ffffff;
 
-    font-family: 'Space Mono', monospace;
-    font-size: 12px;
+  font-family: "Space Mono", monospace;
+  font-size: 12px;
 
-    color: #17223b;
+  color: #17223b;
 
-    outline: none;
+  outline: none;
 }
 
 .search-form input::placeholder {
-    color: #8290aa;
+  color: #8290aa;
 }
 
 .search-form button {
-    width: 62px;
-    height: 32px;
+  width: 62px;
+  height: 32px;
 
-    border: none;
-    border-radius: 5px;
+  border: none;
+  border-radius: 5px;
 
-    background: #1684ed;
-    color: white;
+  background: #1684ed;
+  color: white;
 
-    font-family: 'Space Mono', monospace;
-    font-size: 12px;
-    font-weight: 700;
+  font-family: "Space Mono", monospace;
+  font-size: 12px;
+  font-weight: 700;
 
-    cursor: pointer;
+  cursor: pointer;
 }
-
 
 /* =========================
    SEARCH HOVER
 ========================= */
 
 .search-form button:hover {
-    background: #0d6ed5;
+  background: #0d6ed5;
 }
-
 
 /* =========================
    SEARCH FOCUS
 ========================= */
 
 .search-form input:focus {
-    border: 1px solid #1684ed;
+  border: 1px solid #1684ed;
 
-    box-shadow: 0 0 0 2px rgba(22, 132, 237, 0.12);
+  box-shadow: 0 0 0 2px rgba(22, 132, 237, 0.12);
 }
 
 .search-form button:focus {
-    outline: 2px solid #1684ed;
-    outline-offset: 2px;
+  outline: 2px solid #1684ed;
+  outline-offset: 2px;
 }
-
 
 /* =========================
    EARTH CARD
 ========================= */
 
 .earth-card {
-    width: 730px;
+  width: 730px;
 
-    padding: 18px;
+  padding: 18px;
 
-    background: #ffffff;
+  background: #ffffff;
 
-    border-radius: 7px;
+  border-radius: 7px;
 
-    box-shadow: 0 5px 15px rgba(45, 73, 125, 0.12);
+  box-shadow: 0 5px 15px rgba(45, 73, 125, 0.12);
 
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 
-    transition: 0.2s ease;
+  transition: 0.2s ease;
 }
-
 
 /* =========================
    EARTH CARD HOVER
 ========================= */
 
 .earth-card:hover {
-    transform: translateY(-2px);
+  transform: translateY(-2px);
 
-    box-shadow: 0 8px 20px rgba(45, 73, 125, 0.16);
+  box-shadow: 0 8px 20px rgba(45, 73, 125, 0.16);
 }
-
 
 /* =========================
    EARTH CARD TOP
 ========================= */
 
 .earth-card-top {
-    display: flex;
-    gap: 18px;
+  display: flex;
+  gap: 18px;
 }
 
 .earth-image {
-    flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 .earth-image img {
-    width: 82px;
-    height: 82px;
+  width: 82px;
+  height: 82px;
 
-    object-fit: cover;
+  object-fit: cover;
 
-    border-radius: 50%;
+  border-radius: 50%;
 
-    display: block;
+  display: block;
 }
-
 
 /* =========================
    EARTH INFORMATION
 ========================= */
 
 .earth-info {
-    flex: 1;
+  flex: 1;
 }
 
 .earth-info h2 {
-    margin-bottom: 2px;
+  margin-bottom: 2px;
 
-    font-family: 'Space Mono', monospace;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.2;
+  font-family: "Space Mono", monospace;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
 
-    color: #2b3442;
+  color: #2b3442;
 }
 
 .earth-info h3 {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 
-    font-family: 'Space Mono', monospace;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
 
-    color: #0079ff;
+  color: #0079ff;
 }
 
 .earth-info p {
-    width: 100%;
-    max-width: 370px;
+  width: 100%;
+  max-width: 370px;
 
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 
-    font-family: 'Space Mono', monospace;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 1.5;
+  font-family: "Space Mono", monospace;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.5;
 
-    color: #4b6a9b;
+  color: #4b6a9b;
 
-    opacity: 0.75;
+  opacity: 0.75;
 }
-
 
 /* =========================
    EARTH STATS
 ========================= */
 
 .earth-stats {
-    width: 480px;
-    height: 85px;
+  width: 480px;
+  height: 85px;
 
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 
-    align-items: center;
+  align-items: center;
 
-    border-radius: 10px;
+  border-radius: 10px;
 
-    padding: 16px 32px;
+  padding: 16px 32px;
 
-    background: #f6f8ff;
+  background: #f6f8ff;
 
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .stat-box {
-    padding: 0;
+  padding: 0;
 }
 
 .stat-box span {
-    display: block;
+  display: block;
 
-    margin-bottom: 4px;
+  margin-bottom: 4px;
 
-    font-family: 'Space Mono', monospace;
-    font-size: 11px;
-    font-weight: 400;
-    line-height: 1.5;
+  font-family: "Space Mono", monospace;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.5;
 
-    color: #4b6a9b;
+  color: #4b6a9b;
 }
 
 .stat-box strong {
-    display: block;
+  display: block;
 
-    font-family: 'Space Mono', monospace;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 1.4;
+  font-family: "Space Mono", monospace;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.4;
 
-    color: #2b3442;
+  color: #2b3442;
 }
-
 
 /* =========================
    EARTH DETAILS
 ========================= */
 
 .earth-details {
-    display: grid;
+  display: grid;
 
-    width: 480px;
-    height: 64px;
+  width: 480px;
+  height: 64px;
 
-    grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 
-    row-gap: 7px;
-    column-gap: 25px;
+  row-gap: 7px;
+  column-gap: 25px;
 }
 
 .details {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    gap: 15px;
+  gap: 15px;
 
-    font-family: 'Space Mono', monospace;
-    font-size: 13px;
+  font-family: "Space Mono", monospace;
+  font-size: 13px;
 
-    color: #74819a;
+  color: #74819a;
 }
 
 .details .icon {
-    width: 12px;
+  width: 12px;
 
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 
-    color: #111827;
+  color: #111827;
 }
 
 .details .icon i {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 /* =========================
@@ -376,125 +364,120 @@ a {
 ========================= */
 
 .planet-facts {
-    width: 730px;
-    margin-bottom: 30px;
+  width: 730px;
+  margin-bottom: 30px;
 }
-
 
 /* =========================
    PLANET FACTS TITLE
 ========================= */
 
 .planet-facts h1 {
-    width: 730px;
+  width: 730px;
 
-    margin-bottom: 6px;
+  margin-bottom: 6px;
 
-    font-family: 'Inter', Arial, sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1.2;
-    letter-spacing: -0.02em;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 
-    color: #164baf;
+  color: #164baf;
 }
-
 
 /* =========================
    PLANET FACTS DESCRIPTION
 ========================= */
 
 .planet-facts > p {
-    width: 730px;
-    max-width: 730px;
+  width: 730px;
+  max-width: 730px;
 
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 
-    font-family: 'Inter', Arial, sans-serif;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 1.5;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.5;
 
-    color: #0f2a44;
+  color: #0f2a44;
 }
-
 
 /* =========================
    TABLE DESCRIPTION
 ========================= */
 
 .planet-facts h3 {
-    width: 730px;
+  width: 730px;
 
-    margin-bottom: 7px;
+  margin-bottom: 7px;
 
-    font-family: 'Inter', Arial, sans-serif;
-    font-size: 10px;
-    font-weight: 600;
-    line-height: 1.4;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.4;
 
-    color: #0f2a44;
+  color: #0f2a44;
 }
-
 
 /* =========================
    TABLE
 ========================= */
 
 .table-wrapper {
-    width: 730px;
+  width: 730px;
 
-    overflow-x: auto;
+  overflow-x: auto;
 }
 
 .planet-facts table {
-    width: 730px;
+  width: 730px;
 
-    border: 2px solid #ffffff;
+  border: 2px solid #ffffff;
 
-    border-collapse: collapse;
-    table-layout: fixed;
+  border-collapse: collapse;
+  table-layout: fixed;
 
-    border-radius: 6px;
-    overflow: hidden;
+  border-radius: 6px;
+  overflow: hidden;
 
-    background: #ffffff;
+  background: #ffffff;
 }
 
 .planet-facts th {
-    height: 28px;
+  height: 28px;
 
-    padding: 5px;
+  padding: 5px;
 
-    background: #1852b5;
-    color: #ffffff;
+  background: #1852b5;
+  color: #ffffff;
 
-    border: 1px solid #ffffff;
+  border: 1px solid #ffffff;
 
-    text-align: center;
+  text-align: center;
 
-    font-family: 'Inter', Arial, sans-serif;
-    font-size: 8px;
-    font-weight: 600;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 8px;
+  font-weight: 600;
 }
 
 .planet-facts td {
-    height: 27px;
+  height: 27px;
 
-    padding: 4px;
+  padding: 4px;
 
-    background: #edf3fc;
+  background: #edf3fc;
 
-    border: 1px solid #ffffff;
+  border: 1px solid #ffffff;
 
-    text-align: center;
+  text-align: center;
 
-    color: #26334f;
+  color: #26334f;
 
-    font-family: 'Inter', Arial, sans-serif;
-    font-size: 8px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 8px;
 }
-
 
 /* =========================
    TABLE GROUP CELLS
@@ -502,9 +485,9 @@ a {
 
 .planet-facts tbody td[rowspan],
 .planet-facts tbody td[colspan] {
-    background: #c9dcfa;
+  background: #c9dcfa;
 
-    font-weight: 600;
+  font-weight: 600;
 }
 
 /* =========================
@@ -512,440 +495,433 @@ a {
 ========================= */
 
 .footer {
-    width: 730px;
-    height: 74px;
+  width: 730px;
+  height: 74px;
 
-    margin: 0 auto;
+  margin: 0 auto;
 
-    padding-bottom: 130px;
+  padding-bottom: 130px;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 
-    gap: 30px;
+  gap: 30px;
 
-    color: #4b6a9b;
+  color: #4b6a9b;
 }
 
 .footer h4 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 
-    font-family: 'Inter', Arial, sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: -0.02em;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
 }
 
 .footer p {
-    font-family: 'Inter', Arial, sans-serif;
-    font-size: 10px;
-    line-height: 1.5;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 10px;
+  line-height: 1.5;
 }
 
 .footer a {
-    color: #4b6a9b;
+  color: #4b6a9b;
 }
-
 
 /* =========================
    ERROR STATE
 ========================= */
 
 .search-error {
-    display: none;
+  display: none;
 
-    margin-top: 5px;
+  margin-top: 5px;
 
-    font-family: 'Space Mono', monospace;
-    font-size: 7px;
+  font-family: "Space Mono", monospace;
+  font-size: 7px;
 
-    color: #e53935;
+  color: #e53935;
 }
 
 .search-section.error .search-error {
-    display: block;
+  display: block;
 }
 
 .search-section.error .search-form input {
-    border: 1px solid #e53935;
+  border: 1px solid #e53935;
 }
-
-
-
 
 /* =========================
    DARK MODE
 ========================= */
 
-
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body.dark-mode {
-    font-family: 'Inter', Arial, sans-serif;
-    background: #141D2F;
-    color: #90A4D4;
-    font-size: 16px;
+  font-family: "Inter", Arial, sans-serif;
+  background: #141d2f;
+  color: #90a4d4;
+  font-size: 16px;
+}
+
+/* =========================
+   LOGO - DARK MODE
+========================= */
+
+body.dark-mode .logo {
+  filter: brightness(0) invert(1);
 }
 
 main {
-    width: 730px;
-    margin: 0 auto;
+  width: 730px;
+  margin: 0 auto;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 
 /* =========================
    HEADER - DARK MODE
 ========================= */
 
 body.dark-mode .header {
-    width: 730px;
-    height: 70px;
-    margin: 0 auto;
+  width: 730px;
+  height: 70px;
+  margin: 0 auto;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 body.dark-mode .header > div {
-    width: 100%;
+  width: 100%;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 body.dark-mode .logo {
-    width: 70px;
-    height: auto;
+  width: 70px;
+  height: auto;
 }
 
 body.dark-mode .header span {
-    margin-left: auto;
+  margin-left: auto;
 
-    font-size: 7px;
-    font-weight: 700;
-    letter-spacing: 2px;
+  font-size: 7px;
+  font-weight: 700;
+  letter-spacing: 2px;
 
-    color: #90A4D4;
+  color: #90a4d4;
 }
 
 body.dark-mode #btn {
-    margin-left: 6px;
+  margin-left: 6px;
 
-    border: none;
-    background: transparent;
+  border: none;
+  background: transparent;
 
-    color: #90A4D4;
-    font-size: 10px;
+  color: #90a4d4;
+  font-size: 10px;
 
-    cursor: pointer;
+  cursor: pointer;
 }
-
 
 /* =========================
    SEARCH SECTION
 ========================= */
 
 body.dark-mode .search-section {
-    width: 730px;
-    margin-bottom: 18px;
+  width: 730px;
+  margin-bottom: 18px;
 }
 
 body.dark-mode .search-form {
-    width: 100%;
+  width: 100%;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    gap: 8px;
+  gap: 8px;
 }
 
 body.dark-mode .search-input-wrapper {
-    position: relative;
-    flex: 1;
+  position: relative;
+  flex: 1;
 }
 
 body.dark-mode .search-icon {
-    position: absolute;
+  position: absolute;
 
-    left: 11px;
-    top: 50%;
+  left: 11px;
+  top: 50%;
 
-    transform: translateY(-50%);
+  transform: translateY(-50%);
 
-    color: #60ABFF;
-    font-size: 9px;
+  color: #60abff;
+  font-size: 9px;
 }
 
 body.dark-mode .search-form input {
-    width: 100%;
-    height: 32px;
+  width: 100%;
+  height: 32px;
 
-    padding: 0 10px 0 30px;
+  padding: 0 10px 0 30px;
 
-    border: 1px solid #1E2A47;
-    border-radius: 6px;
+  border: 1px solid #1e2a47;
+  border-radius: 6px;
 
-    background: #1E2A47;
+  background: #1e2a47;
 
-    font-family: 'Space Mono', monospace;
-    font-size: 12px;
+  font-family: "Space Mono", monospace;
+  font-size: 12px;
 
-    color: #FFFFFF;
+  color: #ffffff;
 
-    outline: none;
+  outline: none;
 }
 
 body.dark-mode .search-form input::placeholder {
-    color: #8290aa;
+  color: #8290aa;
 }
 
 body.dark-mode .search-form button {
-    width: 62px;
-    height: 32px;
+  width: 62px;
+  height: 32px;
 
-    border: none;
-    border-radius: 5px;
+  border: none;
+  border-radius: 5px;
 
-    background: #0079FF;
-    color: white;
+  background: #0079ff;
+  color: white;
 
-    font-family: 'Space Mono', monospace;
-    font-size: 12px;
-    font-weight: 700;
+  font-family: "Space Mono", monospace;
+  font-size: 12px;
+  font-weight: 700;
 
-    cursor: pointer;
+  cursor: pointer;
 }
-
 
 /* =========================
    SEARCH HOVER - DARK MODE
 ========================= */
 
 body.dark-mode .search-form button:hover {
-    background: #60ABFF;
+  background: #60abff;
 }
-
 
 /* =========================
    SEARCH FOCUS - DARK MODE
 ========================= */
 
 body.dark-mode .search-form input:focus {
-    border: 1px solid #1684ed;
+  border: 1px solid #1684ed;
 
-    box-shadow: 0 0 0 2px rgba(22, 132, 237, 0.12);
+  box-shadow: 0 0 0 2px rgba(22, 132, 237, 0.12);
 }
 
 body.dark-mode .search-form button:focus {
-    outline: 2px solid #1684ed;
-    outline-offset: 2px;
+  outline: 2px solid #1684ed;
+  outline-offset: 2px;
 }
-
 
 /* =========================
    EARTH CARD - DARK MODE
 ========================= */
 
 body.dark-mode .earth-card {
-    width: 730px;
+  width: 730px;
 
-    padding: 18px;
+  padding: 18px;
 
-    background: #1E2A47;
+  background: #1e2a47;
 
-    border-radius: 7px;
+  border-radius: 7px;
 
-    box-shadow: 0 5px 15px rgba(45, 73, 125, 0.12);
+  box-shadow: 0 5px 15px rgba(45, 73, 125, 0.12);
 
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 
-    transition: 0.2s ease;
+  transition: 0.2s ease;
 }
-
 
 /* =========================
    EARTH CARD HOVER - DARK MODE
 ========================= */
 
 body.dark-mode .earth-card:hover {
-    transform: translateY(-2px);
+  transform: translateY(-2px);
 
-    box-shadow: 0 8px 20px rgba(45, 73, 125, 0.16);
+  box-shadow: 0 8px 20px rgba(45, 73, 125, 0.16);
 }
-
 
 /* =========================
    EARTH CARD TOP - DARK MODE
 ========================= */
 
 body.dark-mode .earth-card-top {
-    display: flex;
-    gap: 18px;
+  display: flex;
+  gap: 18px;
 }
 
 body.dark-mode .earth-image {
-    flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 body.dark-mode .earth-image img {
-    width: 82px;
-    height: 82px;
+  width: 82px;
+  height: 82px;
 
-    object-fit: cover;
+  object-fit: cover;
 
-    border-radius: 50%;
+  border-radius: 50%;
 
-    display: block;
+  display: block;
 }
-
 
 /* =========================
    EARTH INFORMATION - DARK MODE
 ========================= */
 
 body.dark-mode .earth-info {
-    flex: 1;
+  flex: 1;
 }
 
 body.dark-mode .earth-info h2 {
-    margin-bottom: 2px;
+  margin-bottom: 2px;
 
-    font-family: 'Space Mono', monospace;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.2;
+  font-family: "Space Mono", monospace;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 body.dark-mode .earth-info h3 {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 
-    font-family: 'Space Mono', monospace;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
 
-    color: #0079ff;
+  color: #0079ff;
 }
 
 body.dark-mode .earth-info p {
-    width: 100%;
-    max-width: 370px;
+  width: 100%;
+  max-width: 370px;
 
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 
-    font-family: 'Space Mono', monospace;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 1.5;
+  font-family: "Space Mono", monospace;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.5;
 
-    color: #4b6a9b;
+  color: #4b6a9b;
 
-    opacity: 0.75;
+  opacity: 0.75;
 }
-
 
 /* =========================
    EARTH STATS - DARK MODE
 ========================= */
 
 body.dark-mode .earth-stats {
-    width: 480px;
-    height: 85px;
+  width: 480px;
+  height: 85px;
 
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 
-    align-items: center;
+  align-items: center;
 
-    border-radius: 10px;
+  border-radius: 10px;
 
-    padding: 16px 32px;
+  padding: 16px 32px;
 
-    background: #141D2F;
+  background: #141d2f;
 
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 body.dark-mode .stat-box {
-    padding: 0;
+  padding: 0;
 }
 
 body.dark-mode .stat-box span {
-    display: block;
+  display: block;
 
-    margin-bottom: 4px;
+  margin-bottom: 4px;
 
-    font-family: 'Space Mono', monospace;
-    font-size: 11px;
-    font-weight: 400;
-    line-height: 1.5;
+  font-family: "Space Mono", monospace;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.5;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 body.dark-mode .stat-box strong {
-    display: block;
+  display: block;
 
-    font-family: 'Space Mono', monospace;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 1.4;
+  font-family: "Space Mono", monospace;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.4;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
-
 
 /* =========================
    EARTH DETAILS - DARK MODE
 ========================= */
 
 body.dark-mode .earth-details {
-    display: grid;
+  display: grid;
 
-    width: 480px;
-    height: 64px;
+  width: 480px;
+  height: 64px;
 
-    grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 
-    row-gap: 7px;
-    column-gap: 25px;
+  row-gap: 7px;
+  column-gap: 25px;
 }
 
 body.dark-mode .details {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    gap: 15px;
+  gap: 15px;
 
-    font-family: 'Space Mono', monospace;
-    font-size: 13px;
+  font-family: "Space Mono", monospace;
+  font-size: 13px;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 body.dark-mode .details .icon {
-    width: 12px;
+  width: 12px;
 
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 body.dark-mode .details .icon i {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 /* =========================
@@ -953,125 +929,120 @@ body.dark-mode .details .icon i {
 ========================= */
 
 body.dark-mode .planet-facts {
-    width: 730px;
-    margin-bottom: 30px;
+  width: 730px;
+  margin-bottom: 30px;
 }
-
 
 /* =========================
    PLANET FACTS TITLE - DARK MODE
 ========================= */
 
 body.dark-mode .planet-facts h1 {
-    width: 730px;
+  width: 730px;
 
-    margin-bottom: 6px;
+  margin-bottom: 6px;
 
-    font-family: 'Inter', Arial, sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1.2;
-    letter-spacing: -0.02em;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
-
 
 /* =========================
    PLANET FACTS DESCRIPTION - DARK MODE
 ========================= */
 
 body.dark-mode .planet-facts > p {
-    width: 730px;
-    max-width: 730px;
+  width: 730px;
+  max-width: 730px;
 
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 
-    font-family: 'Inter', Arial, sans-serif;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 1.5;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.5;
 
-    color: #90A4D4;
+  color: #90a4d4;
 }
-
 
 /* =========================
    TABLE DESCRIPTION - DARK MODE
 ========================= */
 
 body.dark-mode .planet-facts h3 {
-    width: 730px;
+  width: 730px;
 
-    margin-bottom: 7px;
+  margin-bottom: 7px;
 
-    font-family: 'Inter', Arial, sans-serif;
-    font-size: 10px;
-    font-weight: 600;
-    line-height: 1.4;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.4;
 
-    color: #D1E3FF;
+  color: #d1e3ff;
 }
-
 
 /* =========================
    TABLE - DARK MODE
 ========================= */
 
 body.dark-mode .table-wrapper {
-    width: 730px;
+  width: 730px;
 
-    overflow-x: auto;
+  overflow-x: auto;
 }
 
 body.dark-mode .planet-facts table {
-    width: 730px;
+  width: 730px;
 
-    border: 2px solid #ffffff;
+  border: 2px solid #ffffff;
 
-    border-collapse: collapse;
-    table-layout: fixed;
+  border-collapse: collapse;
+  table-layout: fixed;
 
-    border-radius: 6px;
-    overflow: hidden;
+  border-radius: 6px;
+  overflow: hidden;
 
-    background: #ffffff;
+  background: #ffffff;
 }
 
 body.dark-mode .planet-facts th {
-    height: 28px;
+  height: 28px;
 
-    padding: 5px;
+  padding: 5px;
 
-    background: #141D2F;
-    color: #ffffff;
+  background: #141d2f;
+  color: #ffffff;
 
-    border: 1px solid #ffffff;
+  border: 1px solid #ffffff;
 
-    text-align: center;
+  text-align: center;
 
-    font-family: 'Inter', Arial, sans-serif;
-    font-size: 8px;
-    font-weight: 600;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 8px;
+  font-weight: 600;
 }
 
 body.dark-mode .planet-facts td {
-    height: 27px;
+  height: 27px;
 
-    padding: 4px;
+  padding: 4px;
 
-    background: #edf3fc;
+  background: #edf3fc;
 
-    border: 1px solid #ffffff;
+  border: 1px solid #ffffff;
 
-    text-align: center;
+  text-align: center;
 
-    color: #26334f;
+  color: #26334f;
 
-    font-family: 'Inter', Arial, sans-serif;
-    font-size: 8px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 8px;
 }
-
 
 /* =========================
    TABLE GROUP CELLS - DARK MODE
@@ -1079,9 +1050,9 @@ body.dark-mode .planet-facts td {
 
 body.dark-mode .planet-facts tbody td[rowspan],
 body.dark-mode .planet-facts tbody td[colspan] {
-    background: #90A4D4;
+  background: #90a4d4;
 
-    font-weight: 600;
+  font-weight: 600;
 }
 
 /* =========================
@@ -1089,64 +1060,63 @@ body.dark-mode .planet-facts tbody td[colspan] {
 ========================= */
 
 body.dark-mode .footer {
-    width: 730px;
-    height: 74px;
+  width: 730px;
+  height: 74px;
 
-    margin: 0 auto;
+  margin: 0 auto;
 
-    padding-bottom: 130px;
+  padding-bottom: 130px;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 
-    gap: 30px;
+  gap: 30px;
 
-    color: #D1E3FF;
+  color: #d1e3ff;
 }
 
 body.dark-mode .footer h4 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 
-    font-family: 'Inter', Arial, sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: -0.02em;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
 }
 
 body.dark-mode .footer p {
-    font-family: 'Inter', Arial, sans-serif;
-    font-size: 10px;
-    line-height: 1.5;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 10px;
+  line-height: 1.5;
 }
 
 body.dark-mode .footer a {
-    color: #4b6a9b;
+  color: #4b6a9b;
 }
-
 
 /* =========================
    ERROR STATE - DARK MODE
 ========================= */
 
 body.dark-mode .search-error {
-    display: none;
+  display: none;
 
-    margin-top: 5px;
+  margin-top: 5px;
 
-    font-family: 'Space Mono', monospace;
-    font-size: 7px;
+  font-family: "Space Mono", monospace;
+  font-size: 7px;
 
-    color: #e53935;
+  color: #e53935;
 }
 
 body.dark-mode .search-section.error .search-error {
-    display: block;
+  display: block;
 }
 
 body.dark-mode .search-section.error .search-form input {
-    border: 1px solid #e53935;
+  border: 1px solid #e53935;
 }
 
 /* FOR ERROR CARD STYLE */
@@ -1208,197 +1178,172 @@ body.dark-mode .search-error {
   pointer-events: none;
 }
 
-
 /* =========================================================
    TABLET RESPONSIVENESS
    768px - 1024px
 ========================================================= */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    width: 730px;
+    overflow-x: hidden;
+  }
 
-    body {
-        width: 730px;
-        overflow-x: hidden;
-    }
+  .header {
+    width: 90%;
+    height: 75px;
+  }
 
- 
+  .header > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-    .header {
-        width: 90%;
-        height: 75px;
-    }
+  .header .logo {
+    width: 70px;
+  }
 
-    .header > div {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+  .header .logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 
-    }
+  .theme-toggle {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
 
-    .header .logo {
-        width: 70px;
-    }
+  main {
+    width: 90%;
+    max-width: 730px;
+  }
 
-    .header .logo img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
+  .search-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
-    .theme-toggle {
-        margin-left: auto;
-        display: flex;
-        align-items: center;
-    }
+  .search-form {
+    width: 100%;
+  }
 
+  .search-form input {
+    height: 38px;
+    font-size: 13px;
+  }
 
-  
+  .search-form button {
+    width: 75px;
+    height: 38px;
+    font-size: 12px;
+  }
 
-    main {
-        width: 90%;
-        max-width: 730px;
-    }
+  .earth-card {
+    width: 100%;
+    padding: 22px;
+  }
 
+  .earth-card-top {
+    gap: 22px;
+  }
 
- 
+  .earth-image img {
+    width: 100px;
+    height: 100px;
+  }
 
-    .search-section {
-        width: 100%;
-        margin-bottom: 20px;
-    }
+  .earth-info h2 {
+    font-size: 27px;
+  }
 
-    .search-form {
-        width: 100%;
-    }
+  .earth-info h3 {
+    font-size: 15px;
+  }
 
-    .search-form input {
-        height: 38px;
-        font-size: 13px;
-    }
+  .earth-info p {
+    max-width: 100%;
+    font-size: 11px;
+  }
 
-    .search-form button {
-        width: 75px;
-        height: 38px;
-        font-size: 12px;
-    }
+  .earth-stats {
+    width: 100%;
+    height: 80px;
+    padding: 14px 20px;
+  }
 
+  .stat-box span {
+    font-size: 10px;
+  }
 
+  .stat-box strong {
+    font-size: 20px;
+  }
 
-    .earth-card {
-        width: 100%;
-        padding: 22px;
-    }
+  .earth-details {
+    width: 100%;
+    height: auto;
+  }
 
-    .earth-card-top {
-        gap: 22px;
-    }
+  .details {
+    font-size: 12px;
+  }
 
-    .earth-image img {
-        width: 100px;
-        height: 100px;
-    }
+  .planet-facts {
+    width: 100%;
+  }
 
-    .earth-info h2 {
-        font-size: 27px;
-    }
+  .planet-facts h1 {
+    width: 100%;
+    font-size: 22px;
+  }
 
-    .earth-info h3 {
-        font-size: 15px;
-    }
+  .planet-facts > p {
+    width: 100%;
+    max-width: 100%;
+    font-size: 11px;
+  }
 
-    .earth-info p {
-        max-width: 100%;
-        font-size: 11px;
-    }
+  .planet-facts h3 {
+    width: 100%;
+    font-size: 11px;
+  }
 
+  .table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 
- 
+  .planet-facts table {
+    width: 100%;
+    min-width: 650px;
+  }
 
-    .earth-stats {
-        width: 100%;
-        height: 80px;
-        padding: 14px 20px;
-    }
+  .planet-facts th,
+  .planet-facts td {
+    font-size: 10px;
+    padding: 7px;
+  }
 
-    .stat-box span {
-        font-size: 10px;
-    }
+  .footer {
+    width: 90%;
+    height: auto;
+    margin: 30px auto 0;
+    padding-bottom: 30px;
+    gap: 40px;
+  }
 
-    .stat-box strong {
-        font-size: 20px;
-    }
+  .footer h4 {
+    font-size: 18px;
+  }
 
-
-
-    .earth-details {
-        width: 100%;
-        height: auto;
-    }
-
-    .details {
-        font-size: 12px;
-    }
-
-
-
-    .planet-facts {
-        width: 100%;
-    }
-
-    .planet-facts h1 {
-        width: 100%;
-        font-size: 22px;
-    }
-
-    .planet-facts > p {
-        width: 100%;
-        max-width: 100%;
-        font-size: 11px;
-    }
-
-    .planet-facts h3 {
-        width: 100%;
-        font-size: 11px;
-    }
-
-
-
-    .table-wrapper {
-        width: 100%;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    .planet-facts table {
-        width: 100%;
-        min-width: 650px;
-    }
-
-    .planet-facts th,
-    .planet-facts td {
-        font-size: 10px;
-        padding: 7px;
-    }
-
-
-
-
-    .footer {
-        width: 90%;
-        height: auto;
-        margin: 30px auto 0;
-        padding-bottom: 30px;
-        gap: 40px;
-    }
-
-    .footer h4 {
-        font-size: 18px;
-    }
-
-    .footer p {
-        font-size: 10px;
-    }
+  .footer p {
+    font-size: 10px;
+  }
 }
 
 /* =========================================================
@@ -1407,8 +1352,7 @@ body.dark-mode .search-error {
 ========================================================= */
 
 @media screen and (max-width: 767px) {
-
-      body,
+  body,
   body.dark-mode {
     width: 100%;
     height: auto;
@@ -1709,46 +1653,44 @@ body.dark-mode .search-error {
 }
 
 /* ---------- EARTH CARD: LEFT ALIGN ---------- */
-  .earth-card-top,
-  body.dark-mode .earth-card-top {
-    align-items: flex-start;
-    text-align: left;
-  }
+.earth-card-top,
+body.dark-mode .earth-card-top {
+  align-items: flex-start;
+  text-align: left;
+}
 
-  .earth-image,
-  body.dark-mode .earth-image {
-    justify-content: flex-start;
-  }
+.earth-image,
+body.dark-mode .earth-image {
+  justify-content: flex-start;
+}
 
-  .earth-info,
-  body.dark-mode .earth-info {
-    text-align: left;
-  }
+.earth-info,
+body.dark-mode .earth-info {
+  text-align: left;
+}
 
-  .earth-info p,
-  body.dark-mode .earth-info p {
-    text-align: left;
-  }
+.earth-info p,
+body.dark-mode .earth-info p {
+  text-align: left;
+}
 
-  .earth-stats,
-  body.dark-mode .earth-stats {
-    text-align: left;
-  }
+.earth-stats,
+body.dark-mode .earth-stats {
+  text-align: left;
+}
 
-  .earth-details,
-  body.dark-mode .earth-details {
-    justify-items: start;
-  }
+.earth-details,
+body.dark-mode .earth-details {
+  justify-items: start;
+}
 
-  .details,
-  body.dark-mode .details {
-    justify-content: flex-start;
-  }
+.details,
+body.dark-mode .details {
+  justify-content: flex-start;
+}
 
-  /* error card too, so it matches */
-  .no-results,
-  body.dark-mode .no-results {
-    text-align: left;
-  }
-
-
+/* error card too, so it matches */
+.no-results,
+body.dark-mode .no-results {
+  text-align: left;
+}
