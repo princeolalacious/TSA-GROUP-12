@@ -5,6 +5,7 @@ An interactive, responsive website for exploring the eight planets of our solar 
 Built with **HTML, CSS, and vanilla JavaScript** as a group frontend project.
 
 Live Demo: [Planetaryfacts-grp12.netlify.app]
+
 Github Repo: [https://github.com/princeolalacious/TSA-GROUP-12]
 
                         FEATURES
